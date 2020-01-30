@@ -1,0 +1,128 @@
+body {
+	font-family: vardana; 
+	font-weight: bold;
+	 }
+#background {
+	background-image: 
+	url(https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?cs=srgb&dl=abstract-art-black-background-blur-1040499.jpg&fm=jpg);
+	 background-repeat: no-repeat; 
+	 background-size: cover;
+	}
+#survey-form {
+	display: inline-block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: left;
+}
+h1 {
+	text-align: center;
+	 font-weight: bold; 
+	 font-family: courier;
+	 color:#C53815;
+}
+#description {
+	font-style: italic;
+	 font-size: 18px; 
+	 text-align: center;
+	 color:#C53815; 
+	 font-family:georgia;
+  	 display: block;
+  	 text-align: center;
+  	}
+ div.form {
+ 	display: block; 
+ 	text-align: center; 
+ 	background-color:#BFC9CA;
+ 	 width: 50%; 
+ 	 margin: 0 auto; 
+ 	color:#7B241C;  
+ 	border-radius: 3%;
+  font-size: 18px;
+   padding:20px 10px 20px 10px;
+   font-family: vardana;
+}
+@media screen and (max-width: 900px){
+	div.form{
+		width: 90%;
+	}
+}
+label [for=dropdown] {
+	padding:10px 0px 10px 0px;
+}
+
+input[type=text] {
+	width: 100%; 
+	border-style: solid;
+	border-color:#7B241C;
+ 	border-radius: 3px;
+ 	 border-width: 1px;
+ 	 padding-top: 10px; 
+ 	  padding-bottom: 10px;
+}
+input[type=email] {
+	width: 100%;
+    border-style: solid; 
+    border-color:#7B241C; 
+    box-sizing: border-box;
+    border-radius: 3px; 
+    border-width: 1px; 
+    padding-bottom: 10px;
+     padding-top: 10px; 
+ }
+input[type=number] {
+	width: 100%; 
+	border-style: solid;
+    border-color:#7B241C;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}-->
+ div.style {
+ 	padding-bottom: 10px;
+ }
+ select {
+ 	width: 100%; 
+ 	border-style: solid; 
+ 	border-color:#7B241C;
+    border-radius: 3px; 
+    border-width: 1px; 
+    padding-bottom: 10px; 
+    padding-top: 10px;
+}
+ div.select {
+ 	padding-bottom: 10px;
+ }
+ textarea {
+ 	width: 100%; 
+ 	border-style: solid; 
+ 	border-color:#7B241C;
+    border-radius: 3px; 
+    border-width: 1px; 
+    padding-bottom: 10px; 
+    padding-top: 10px;
+    transition: height 0.5s, 
+	border-width 0.5s; 
+}
+textarea:focus{
+	height: 200px;
+	border-width: 2px;
+}
+#submit{
+	width: 50%;
+	border: 2px solid #7B241C;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	position: relative;
+	bottom: -20px;
+	margin: 0px auto;
+	background-color: #7B241C;
+	color: white;
+}
+p#copy{
+	text-align: center;
+	font-style: italic;
+	font-size: small;
+	color: white;
+}

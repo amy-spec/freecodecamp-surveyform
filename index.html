@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<meta charset="utf-8" content="width=device-width", initial-scale="1"name="viewport" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="background">
+	<h1 id="title">	Dee's Market Survey Form </h1>
+	<p id="description">Hello there, thanks for taking out time to participate in this survey. We hope it helps us to serve you better.</p>
+	<div class="form">
+	<form id="survey-form">
+	<div class="style">
+	<label id="name-label"> Name <br>
+		<input id="name" type="text" name="Name"  placeholder="Last name        First name" required> 
+	</label></div> <br>
+	<label id="email-label"> Email<br>
+		<input type="email" id="email" name="Email" placeholder="Enter your email" required><br>
+	</label><br>
+	<label id="number-label">Age <br>
+		<input type="number" name="Age" id="number" min="18" max="50" placeholder="How old are you" required><br>
+	</label><br>
+	<fieldset>
+		<legend>Gender</legend>
+	<label for="male-female">
+		<input type="radio" name="male-female" id="male" value="male">Male
+	</label><br>
+	<label for="male-female">
+		<input type="radio" name="male-female" id="female" value="female">Female
+	</label> </fieldset><br>
+	<div class="select">
+	<label for="dropdown"> How often do you shop with us?<br>
+	<select id="dropdown">
+		<option value="Weekly">Weekly</option>
+		<option value="Bi-weekly">Bi-weekly</option>
+		<option value="Monthly">Monthly</option>
+		<option value="other">Other</option>
+	</select>
+	</label></div><br>
+	<fieldset>
+		<legend>What are your most frequently bought items?</legend><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="Baby">Baby
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="produce">Produce:Fruits & Vegetables
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="Beverages">Beverages
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="bread-bakery">Bread & Bakery
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="canned-soups">Canned Goods & Soups
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="frozen foods">Frozen Foods
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="beer-wine">Bread, Wine & Spirit
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="paper-products">Paper Products
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="cleaning-supplies">Cleaning Supplies
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="Pharmacy">Pharmacy
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="Miscellaneous">Miscellaneous
+	</label><br>
+	<label>
+	<input type="checkbox" name="items-bought" value="Health-beauty">Health, Beauty & Personal Care
+	</label></fieldset><br>
+	<fieldset>
+		<legend>What payment method do you prefer?</legend><br>
+	<label>
+		<input type="radio" name="payment-method" value="Cash">Cash
+	</label><br>
+	<label>
+		<input type="radio" name="payment-method" value="POS">POS
+	</label><br>
+	<label>
+		<input type="radio" name="payment-method" value="vegetables">Bank Transfer
+	</label></fieldset><br>
+	<fieldset>
+		<legend>Would you recommend Dee's Market to a friend?</legend><br>
+	<label>
+		<input type="radio" name="yes-no" value="yes">Yes
+	</label><br>
+	<label>
+		<input type="radio" name="yes-no" value="No">No
+	</label></fieldset><br>
+	<fieldset>
+		<legend>Help us serve you better. Tell us what you'd like us to work on</legend><br>
+	<textarea id="suggestion" placeholder="Type your suggestion here" cols="45" rows="10">
+	</textarea></fieldset><br>
+	<input type="submit" name="submit" value="DONE!" id="submit">
+</form>
+</div>
+<p id="copy">&copy Dee's Market</p>
+</body>
+</html>
